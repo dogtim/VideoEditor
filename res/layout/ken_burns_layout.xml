@@ -9,7 +9,7 @@
         android:layout_centerHorizontal="true"
         android:padding="4dip"
         android:background="@drawable/surface_background">
-        <com.android.videoeditor.widgets.ImageViewTouchBase android:id="@+id/ken_burns_image"
+        <dogtim.android.videoeditor.widgets.ImageViewTouchBase android:id="@+id/ken_burns_image"
             android:layout_width="720dip"
             android:layout_height="0px"
             android:layout_centerHorizontal="true"

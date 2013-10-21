@@ -15,7 +15,7 @@
   limitations under the License.
 -->
 
-<com.android.videoeditor.widgets.EditorRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<dogtim.android.videoeditor.widgets.EditorRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/editor_project_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -27,7 +27,7 @@
         android:layout_marginTop="33dip"
         android:layout_marginLeft="-50dip"
         android:background="@drawable/buttons_background_zoom">
-        <com.android.videoeditor.widgets.ZoomControl android:id="@+id/editor_zoom"
+        <dogtim.android.videoeditor.widgets.ZoomControl android:id="@+id/editor_zoom"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clickable="true"/>
@@ -99,11 +99,11 @@
         android:layout_alignParentTop="true"
         android:padding="3dip"
         android:background="@drawable/surface_background">
-        <com.android.videoeditor.widgets.PreviewSurfaceView android:id="@+id/video_view"
+        <dogtim.android.videoeditor.widgets.PreviewSurfaceView android:id="@+id/video_view"
             android:layout_width="0dip"
             android:layout_height="270dip"/>
         <ImageView android:id="@+id/overlay_layer"
             android:layout_width="0dip"
             android:layout_height="270dip"/>
     </FrameLayout>
-</com.android.videoeditor.widgets.EditorRelativeLayout>
+</dogtim.android.videoeditor.widgets.EditorRelativeLayout>

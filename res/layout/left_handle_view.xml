@@ -14,7 +14,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<com.android.videoeditor.widgets.HandleView xmlns:android="http://schemas.android.com/apk/res/android"
+<dogtim.android.videoeditor.widgets.HandleView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/handle_left"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
